@@ -16,10 +16,6 @@
     --color-light-gray: #E5E5E5;
 }
 
-html, body {
-    height: 100%;
-}
-
 .display-content {
     display: contents;
 }
@@ -161,6 +157,12 @@ body {
  * Header
  */
 .header {
+    --header-bg-color: #ffffffc7;
+
+    position: sticky;
+    top: 0;
+    z-index: 5;
+
     padding: 25px;
     padding-inline: 152px 145px;
 
@@ -169,6 +171,7 @@ body {
     justify-content: flex-end;
 
     box-shadow: 0 3px 15px rgba(0, 0, 0, 0.15);
+    background-color: var(--header-bg-color);
 
 }
 
@@ -482,7 +485,7 @@ body {
     width: 24px;
     height: 24px;
     top: -29px;
-    left: 40%;
+    left: calc(50% - 12px);
 }
 
 .mode .phone-preview-mode + div .is-white-mode:before {
