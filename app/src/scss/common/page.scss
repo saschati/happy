@@ -1,0 +1,9 @@
+.page {
+  display: grid;
+  grid-template:
+        'header header header' 200px
+        '.      content     .' calc(100% - 400px)
+        'footer footer footer' 200px
+    /     20%    60%     20%
+  ;
+}

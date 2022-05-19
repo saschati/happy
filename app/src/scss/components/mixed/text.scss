@@ -1,0 +1,91 @@
+.text {
+  --text-color: #000;
+
+  font-size: 16px;
+  font-weight: normal;
+
+  color: var(--text-color);
+
+  // TYPE
+  &_type {
+    &_small_title {
+      text-align: center;
+      font-size: .9rem;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+    }
+  }
+
+  //FONTS
+  &_font {
+    &_macondo {
+      font-family: 'Macondo', cursive;
+    }
+  }
+
+  //POSITION
+  &_position {
+    &_center {
+      text-align: center;
+    }
+    &_left {
+      text-align: left;
+    }
+  }
+
+  //WIGHTS
+  &_weight {
+    &_bold {
+      font-weight: bold;
+    }
+  }
+
+  //SIZE
+  &_size {
+    &_xl {
+      font-size: .9rem;
+    }
+    &_x1_2 {
+      font-size: 1.5rem;
+    }
+    &_x2 {
+      font-size: 2rem;
+    }
+    &_x3 {
+      font-size: 3rem;
+    }
+    &_x3_37 {
+      font-size: 3.37rem;
+    }
+    &_x6 {
+      font-size: 6rem;
+    }
+  }
+
+  //COLOR
+  &_color {
+    &_white {
+      color: var(--color-white);
+    }
+    &_gray {
+      color: var(--color-gray);
+    }
+    &_black-gray {
+      color: var(--color-black-gray);
+    }
+  }
+
+  //LATTER SPACE
+  &_ls {
+    &_x2 {
+      letter-spacing: 2px;
+    }
+  }
+
+  // TEXT TRANSFORM
+  &_tt {
+    &_upper {
+      text-transform: uppercase;
+    }
+  }
+}

@@ -1,0 +1,54 @@
+.prices {
+  &__container {
+    margin: 41px auto 0;
+  }
+
+  &__item {
+    width: 379px;
+    height: 338px;
+    margin-top: 16px;
+
+    border-radius: 20px;
+
+    color: var(--prises-color);
+
+    &:last-child {
+      margin-bottom: 100px;
+    }
+
+    &_color {
+      &_blue {
+        --prises-color: var(--color-blue);
+      }
+      &_red {
+        --prises-color: var(--color-red);
+      }
+      &_orange {
+        --prises-color: var(--color-orange);
+      }
+    }
+
+    & + & {
+      margin-left: 16px;
+    }
+  }
+
+  &__title {
+    margin-top: 49px;
+    font-size: 18px;
+  }
+
+  &__price {
+    letter-spacing: 8px;
+    font-size: 104px;
+    margin-top: -10px;
+  }
+
+  &__description {
+    margin-top: 25px;
+  }
+
+  &__btn {
+    margin-top: 20px;
+  }
+}
