@@ -1,5 +1,6 @@
 init: docker-down docker-pull docker-build npm-install docker-up ready
 up: docker-down docker-up
+down: docker-down
 
 .DEFAULT_GOAL := n
 
